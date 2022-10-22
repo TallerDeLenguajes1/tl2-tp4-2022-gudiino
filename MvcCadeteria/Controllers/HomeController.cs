@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using cadeteria.Models;
+using MvcCadeteria.Models;
 
-namespace cadeteria.Controllers;
+namespace MvcCadeteria.Controllers;
 
 public class HomeController : Controller
 {
@@ -17,10 +17,12 @@ public class HomeController : Controller
     {
         return View();
     }
+
     public IActionResult Privacy()
     {
         return View();
     }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

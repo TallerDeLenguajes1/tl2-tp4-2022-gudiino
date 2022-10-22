@@ -1,4 +1,4 @@
-namespace cadeteria.Models;
+namespace MvcCadeteria.Models;
 
 public class ErrorViewModel
 {
